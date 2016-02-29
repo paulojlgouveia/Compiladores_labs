@@ -6,7 +6,7 @@
  
 class Sheep : public Shearable {
 	
-	int _woolLength; // should be private...
+	int _woolLength;
 	
 public:
 
