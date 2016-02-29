@@ -6,6 +6,7 @@ clear:
 
 .exe: 
 	g++ -o app main.cpp
-
-clean:
 	./app
+	
+clean:
+	rm -f app

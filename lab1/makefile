@@ -10,7 +10,8 @@ clear:
 
 .exe: 
 	g++ -o app MagicLamp.o main.o
+	./app
 
 clean:
-	rm *.o
-	./app
+	rm -f *.o
+	rm -f app
